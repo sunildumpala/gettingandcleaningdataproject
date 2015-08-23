@@ -24,29 +24,24 @@ y_train.txt
  Script returns the dataframe for final submission of step 5 in the assignment - "From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject."
 
  Code performs the following actions:
- Loads the various data files
- Add column names to x_test and x_train datasets by using Features dataset
- Add column names to subject_test, subject_train
- Add column names to y_test, y_train
- 
- Combine (rbind) x_test, x_train
- Combine (rbind) y_test, y_train
- Combine (rbind) subject_test, subject_train
- 
- Combine (cbind) ycomb, xcomb
- Combine (cbind) subcomb, all
 
- Merge the "all" dataset with activity_labels by joining on activity_id
-
- Load dplyr library
-
- Create vector s1, to get all the column names that contain "mean" values
- Create vector s2, to get all the column names that contain "std" values
- Create vector s3, to add and sort s1 and s2
-
- Using the 3 vectors select only those columns that are needed for final submission
- Group by activity_id and subject_id
- Summarize to get averages of all the mean and std columns to create the final dataset for submission
+ 1. Loads the various data files
+ 2. Add column names to x_test and x_train datasets by using Features dataset
+ 3. Add column names to subject_test, subject_train
+ 4. Add column names to y_test, y_train
+ 5. Combine (rbind) x_test, x_train
+ 6. Combine (rbind) y_test, y_train
+ 7. Combine (rbind) subject_test, subject_train
+ 8. Combine (cbind) ycomb, xcomb
+ 9. Combine (cbind) subcomb, all
+ 10. Merge the "all" dataset with activity_labels by joining on activity_id
+ 11. Load dplyr library
+ 12. Create vector s1, to get all the column names that contain "mean" values
+ 13. Create vector s2, to get all the column names that contain "std" values
+ 14. Create vector s3, to add and sort s1 and s2
+ 15. Using the 3 vectors select only those columns that are needed for final submission
+ 16. Group by activity_id and subject_id
+ 17. Summarize to get averages of all the mean and std columns to create the final dataset for submission
 
  If all goes well the script should create the following output data file:
 projectsubmission.txt
