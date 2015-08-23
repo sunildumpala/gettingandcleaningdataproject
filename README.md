@@ -45,3 +45,10 @@ y_train.txt
 
  If all goes well the script should create the following output data file:
 projectsubmission.txt
+
+The projectsubmission.txt file can be read into an R environment as follows:
+
+tab <- read.table("./data/projectsubmission.txt", header = TRUE)
+
+
+Find the CodeBook.md in the repo that explains the data
