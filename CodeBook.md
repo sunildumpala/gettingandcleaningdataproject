@@ -1,6 +1,7 @@
 # gettingandcleaningdataproject DATA DICTIONARY - Averages grouped by activity and subject
 
 activity_id
+
     Ids for Activities
     1...6
     
@@ -12,13 +13,16 @@ activity_id
     6. LAYING
 
 subject_id
+
     Ids for Subjects
     1...30
 
 avgtBodyAccmeanX
+
     Average of tBodyAcc-mean()-X
 
 avgtBodyAccmeanY
+
     Average of tBodyAcc-mean()-Y
 
 avgtBodyAccmeanZ
