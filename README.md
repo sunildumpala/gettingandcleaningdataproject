@@ -9,14 +9,14 @@ run_analysis(filedir)
 
  data directory contains the following data files
 
-activity_labels.txt
-features.txt
-subject_test.txt
-subject_train.txt
-X_test.txt
-X_train.txt
-y_test.txt
-y_train.txt
+1. activity_labels.txt
+2. features.txt
+3. subject_test.txt
+4. subject_train.txt
+5. X_test.txt
+6. X_train.txt
+7. y_test.txt
+8. y_train.txt
 
  The above data files are available at this link provided in the project page: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
