@@ -4,6 +4,7 @@
  Sample call looks as follows:
 
 filedir <- "/Users/user/CourseProject/gettingandcleaningdataproject/data"
+
 run_analysis(filedir)
 
  data directory contains the following data files
